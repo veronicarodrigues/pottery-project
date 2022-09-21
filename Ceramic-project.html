@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrisSaizCeramics 🏺</title>
+    <style>
+      body {
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+      }
+      .bloque {
+        max-width: 600px;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        background-color: #fffbf4;
+        border-radius: 10px;
+        width: 60%;
+        padding: 30px 60px;
+        margin: 30px auto;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+      }
+      h1 {
+        display: block;
+        text-align: center;
+        padding: 0px auto;
+        margin: 0;
+        color: #3f382e;
+        font-size: 34px;
+        font-weight: 400;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 48px;
+      }
+      h2 {
+        display: block;
+        text-align: center;
+        margin: 0;
+        color: #3f382e;
+        font-size: 25px;
+        font-weight: 200;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 48px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .Description {
+        text-align: center;
+        margin: 20 0 10px;
+        color: #3f382e;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 30px;
+      }
+      a {
+        margin: 0;
+        color: sienna;
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 20px;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 16px 24px;
+        color: #ffff;
+        background-color: #f2be9f;
+        font-size: 18px;
+        line-height: 22px;
+        border: 1px solid #d3a284;
+        border-radius: 30px;
+        box-shadow: rgb(37, 39, 89 / 8%) 0px 8px 8px 0;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+      button:hover {
+        color: #d3a284;
+        background: rgb(255, 235, 224);
+        cursor: pointer;
+        opacity: 0.9;
+      }
+      .madeBy {
+        text-align: center;
+        color: sienna;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloque">
+      <h1>Hand made pottery</h1>
+      <h2><em>With love</em></h2>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/980/original/Screenshot_%28278%29.png?1631359859"
+        width="200"
+      />
+      <hr />
+      <p class="Description">
+        <strong>The Beauty of Ceramics.</strong> Beauty is everywhere. All you
+        have to do is look for it. However, I find beauty most interesting when
+        it comes in the purest and natural form as in nature. Nature is an
+        infinite source of beauty. It is beautiful and forever changeable, each
+        part and everyone is unique. It is a large treasury and archive of
+        materials, which appeal to my aesthetics sense. I am particularly
+        interested in surfaces and textures and how light can change the
+        expression of the perceived.
+      </p>
+      <br />
+      <p class="more">
+        <span>👉🏼</span>
+        <a href="https://www.instagram.com/crissaizceramics/" target="_blank"
+          >Discover more here</a
+        >
+      </p>
+      <button>Contact us</button>
+      <p class="madeBy">This page was built by <em>Verónica Rodrigues</em></p>
+    </div>
+    <script>
+      function Contact() {
+        let name = prompt("What is your name?");
+        let language = prompt("Which language do you speak?");
+        language = language.toLowerCase();
+        language = language.trim();
+        let email = prompt("What is your email address?");
+        if (language === "spanish") {
+          alert(
+            "Gracias " +
+              name +
+              "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+          );
+        } else {
+          if (language === "english") {
+            alert(
+              "Thank you " +
+                name +
+                "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+            );
+          } else {
+            if (language === "french") {
+              alert(
+                "Merci " +
+                  name +
+                  "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+              );
+            } else {
+              if (language === "german") {
+                alert(
+                  "Danke schön " +
+                    name +
+                    "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                );
+              } else {
+                if (language === "italian") {
+                  alert(
+                    "Grazie " +
+                      name +
+                      "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                  );
+                } else {
+                  if (language === "portuguese") {
+                    alert(
+                      "Obrigado " +
+                        name +
+                        "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                    );
+                  } else {
+                    if (language === "chinese") {
+                      alert(
+                        "谢谢你 " +
+                          name +
+                          "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                      );
+                    } else {
+                      if (language === "japanese") {
+                        alert(
+                          "ありがとう " +
+                            name +
+                            "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                        );
+                      } else {
+                        if (language === "korean") {
+                          alert(
+                            "감사 해요 " +
+                              name +
+                              "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                          );
+                        } else {
+                          if (language === "arabic") {
+                            alert(
+                              "شكرا " +
+                                name +
+                                "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                            );
+                          } else {
+                            if (language === "dutch") {
+                              alert(
+                                "Met dank " +
+                                  name +
+                                  "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                              );
+                            } else {
+                              if (language === "russian") {
+                                alert(
+                                  "Благодарность " +
+                                    name +
+                                    "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                );
+                              } else {
+                                if (language === "polish") {
+                                  alert(
+                                    "Dzięki " +
+                                      name +
+                                      "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                  );
+                                } else {
+                                  if (language === "turkish") {
+                                    alert(
+                                      "Teşekkürler " +
+                                        name +
+                                        "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                    );
+                                  } else {
+                                    if (language === "swedish") {
+                                      alert(
+                                        "Tack " +
+                                          name +
+                                          "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                      );
+                                    } else {
+                                      if (language === "finnish") {
+                                        alert(
+                                          "Kiitos " +
+                                            name +
+                                            "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                        );
+                                      } else {
+                                        if (language === "catalan") {
+                                          alert(
+                                            "Gràcies " +
+                                              name +
+                                              "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                          );
+                                        } else {
+                                          if (language === "vietnamese") {
+                                            alert(
+                                              "Cảm ơn " +
+                                                name +
+                                                "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                            );
+                                          } else {
+                                            if (language === "thai") {
+                                              alert(
+                                                "ขอบใจ " +
+                                                  name +
+                                                  "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                              );
+                                            } else {
+                                              if (language === "malay") {
+                                                alert(
+                                                  "terima kasih " +
+                                                    name +
+                                                    "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                );
+                                              } else {
+                                                if (language === "norwegian") {
+                                                  alert(
+                                                    "Takk " +
+                                                      name +
+                                                      "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                  );
+                                                } else {
+                                                  if (language === "danish") {
+                                                    alert(
+                                                      "Tak " +
+                                                        name +
+                                                        "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                    );
+                                                  } else {
+                                                    if (language === "greek") {
+                                                      alert(
+                                                        "ευχαριστώ " +
+                                                          name +
+                                                          "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                      );
+                                                    } else {
+                                                      if (
+                                                        language === "hindi"
+                                                      ) {
+                                                        alert(
+                                                          "धन्यवाद " +
+                                                            name +
+                                                            "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                        );
+                                                      } else {
+                                                        if (
+                                                          language ===
+                                                          "indonesian"
+                                                        ) {
+                                                          alert(
+                                                            "Terima kasih " +
+                                                              name +
+                                                              "! We'll contact you soon. Meanwhile, take a look to our creations.🏺"
+                                                          );
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", Contact);
+    </script>
+  </body>
+</html>
