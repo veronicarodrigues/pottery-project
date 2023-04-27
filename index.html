@@ -56,13 +56,16 @@
         line-height: 30px;
       }
       a {
+        text-decoration: none;
+        color: sienna;
+      }
+      a.discover {
         margin: 0;
         color: sienna;
         font-size: 16px;
         font-weight: lighter;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         line-height: 20px;
-        text-decoration: none;
       }
       a:hover {
         text-decoration: underline;
@@ -117,12 +120,22 @@
       <br />
       <p class="more">
         <span>👉🏼</span>
-        <a href="https://www.instagram.com/crissaizceramics/" target="_blank"
+        <a
+          class="discover"
+          href="https://www.instagram.com/crissaizceramics/"
+          target="_blank"
           >Discover more here</a
         >
       </p>
       <button>Contact us</button>
-      <p class="madeBy">This page was built by <em>Verónica Rodrigues</em></p>
+      <p class="madeBy">
+        This page was built by <em>Verónica Rodrigues</em>, and is
+        <a
+          href="https://github.com/veronicarodrigues/pottery-project"
+          target="_blank"
+          ><b>open-source</b></a
+        >
+      </p>
     </div>
     <script>
       function Contact() {
